@@ -1,0 +1,49 @@
+independent_variables:
+- header: {name: '$N_{ch}/<N_{ch}>$'}
+  values:
+  - {high: 0.607763, low:  0,  value:  0.303881}
+  - {high: 1.21553, low:  0.607763,  value:  0.911644}
+  - {high: 1.82329, low:  1.21553,  value:  1.51941}
+  - {high: 2.43105, low:  1.82329,  value:  2.12717}
+  - {high: 3.03881, low:  2.43105,  value:  2.73493}
+  - {high: 3.64658, low:  3.03881,  value:  3.3427}
+  - {high: 4.8621, low:  3.64658,  value:  4.25434}
+  - {high: 6.07763, low:  4.8621,  value:  5.46986}
+dependent_variables:
+- header: {name: '$N_{J/\psi}/<N_{J/\psi}>$'}
+  qualifiers:
+  - {name: RE, value: p p --> J/PSI (MU+ MU-)}
+  - {name: SQRT(s), units: GeV, value: 200}
+  values:
+  - value: 0.912725
+    errors: 
+    - {asymerror: {plus: 0.0204063, minus: -0.0204063}, label: stat}
+    - {asymerror: {plus: 0.0650067, minus: -0.0650067}, label: syst}
+  - value: 1.0173
+    errors: 
+    - {asymerror: {plus: 0.0231124, minus: -0.0231124}, label: stat}
+    - {asymerror: {plus: 0.0656256, minus: -0.0656256}, label: syst}
+  - value: 1.11574
+    errors: 
+    - {asymerror: {plus: 0.0311937, minus: -0.0311937}, label: stat}
+    - {asymerror: {plus: 0.0685293, minus: -0.0685293}, label: syst}
+  - value: 1.36492
+    errors: 
+    - {asymerror: {plus: 0.0440562, minus: -0.0440562}, label: stat}
+    - {asymerror: {plus: 0.0859322, minus: -0.0859322}, label: syst}
+  - value: 1.59891
+    errors: 
+    - {asymerror: {plus: 0.0624817, minus: -0.0624817}, label: stat}
+    - {asymerror: {plus: 0.112318, minus: -0.112318}, label: syst}
+  - value: 1.59645
+    errors: 
+    - {asymerror: {plus: 0.0829713, minus: -0.0829713}, label: stat}
+    - {asymerror: {plus: 0.128561, minus: -0.128561}, label: syst}
+  - value: 1.75236
+    errors: 
+    - {asymerror: {plus: 0.0979754, minus: -0.0979754}, label: stat}
+    - {asymerror: {plus: 0.17751, minus: -0.17751}, label: syst}
+  - value: 2.35435
+    errors: 
+    - {asymerror: {plus: 0.215611, minus: -0.215611}, label: stat}
+    - {asymerror: {plus: 0.284574, minus: -0.284574}, label: syst}

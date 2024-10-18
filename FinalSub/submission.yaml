@@ -1,0 +1,100 @@
+additional_resources:
+- {description: Webpage with all figures and tables, location: 'http://cms-results.web.cern.ch/cms-results/public-results/publications/HIN-19-011/index.html'}
+---
+data_file: table_1.yaml
+description: The normalized $J/\psi$ yields scaled by average $J/\psi$ yield, both normalied by the corresponding number of minimum bias events. The results are shown as a function of self-normalized charged particle multiplicity $N_{ch}/<N_{ch}>$ in the same arms before subtracting the dimuon contributions.
+keywords:
+- name: observables
+  values: [N(J/PSI)/<N(J/PSI)>]
+- name: reactions
+  values: [p p --> J/PSI (MU+ MU-)]
+- name: cmenergies
+  values: ['200.0']
+- name: phrases
+  values: []
+location: Same arm no subtraction data from Figure 1 (red solid circle)
+name: Table 1
+---
+data_file: table_2.yaml
+description: The normalized $J/\psi$ yields scaled by average $J/\psi$ yield, both normalied by the corresponding number of minimum bias events. The results are shown as a function of self-normalized charged particle multiplicity $N_{ch}/<N_{ch}>$ in the same arms after subtracting the dimuon contributions.
+keywords:
+- name: observables
+  values: [N(J/PSI)/<N(J/PSI)>]
+- name: reactions
+  values: [p p --> J/PSI (MU+ MU-)]
+- name: cmenergies
+  values: ['200.0']
+- name: phrases
+  values: []
+location: Same arm with dimuon subtraction data from Figure 1 (Magenta solid cross)
+name: Table 2
+---
+data_file: table_3.yaml
+description: The normalized $J/\psi$ yields scaled by average $J/\psi$ yield, both normalied by the corresponding number of minimum bias events. The results are shown as a function of self-normalized charged particle multiplicity $N_{ch}/<N_{ch}>$ in the opposite arms.
+keywords:
+- name: observables
+  values: [N(J/PSI)/<N(J/PSI)>]
+- name: reactions
+  values: [p p --> J/PSI (MU+ MU-)]
+- name: cmenergies
+  values: ['200.0']
+- name: phrases
+  values: []
+location: Opposite arms data from Figure 1 (blue solid square)
+name: Table 3
+---
+data_file: table_4.yaml
+description: The lowest 8 data points of normalized $J/\psi$ yields in the same arms befoee dimuon subtraction taken from Table 1 in Figure 1 for the comparison with PYTHIA simulations.
+keywords:
+- name: observables
+  values: [N(J/PSI)/<N(J/PSI)>]
+- name: reactions
+  values: [p p --> J/PSI (MU+ MU-)]
+- name: cmenergies
+  values: ['200.0']
+- name: phrases
+  values: []
+location: Same arm no subtraction data from Figure 2 (red solid circle) 
+name: Table 4
+---
+data_file: table_5.yaml
+description: The lowest 8 data points of normalized $J/\psi$ yields in the same arms after dimuon subtraction taken from Table 2 in Figure 1 for the comparison with PYTHIA simulations.
+keywords:
+- name: observables
+  values: [N(J/PSI)/<N(J/PSI)>]
+- name: reactions
+  values: [p p --> J/PSI (MU+ MU-)]
+- name: cmenergies
+  values: ['200.0']
+- name: phrases
+  values: []
+location: Same arm no subtraction data from Figure 2 (megenta solid cross) 
+name: Table 5
+---
+data_file: table_6.yaml
+description: The normalized $\psi(2S)$ to $J/\psi$ yields ratio in the same arms. The results are shown as a function of self-normalized charged particle multiplicity $N_{ch}/<N_{ch}>$ in the same arms.
+keywords:
+- name: observables
+  values: [N(PSI)/<N(PSI)>]
+- name: reactions
+  values: [p p --> PSI(2S) or J/PSI (MU+ MU-)]
+- name: cmenergies
+  values: ['200.0']
+- name: phrases
+  values: []
+location: Same arm no subtraction data from Figure 3 (red solid circle) 
+name: Table 6
+---
+data_file: table_7.yaml
+description: The normalized $\psi(2S)$ to $J/\psi$ yields ratio in opposite arms. The results are shown as a function of self-normalized charged particle multiplicity $N_{ch}/<N_{ch}>$ in opposite arms.
+keywords:
+- name: observables
+  values: [N(PSI)/<N(PSI)>]
+- name: reactions
+  values: [p p --> PSI(2S) or J/PSI (MU+ MU-)]
+- name: cmenergies
+  values: ['200.0']
+- name: phrases
+  values: []
+location: Opposite arm data from Figure 3 (blue solid square) 
+name: Table 7

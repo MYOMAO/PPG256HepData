@@ -1,0 +1,54 @@
+independent_variables:
+- header: {name: '$N_{ch}/<N_{ch}>$'}
+  values:
+  - {high: 0.583974, low:  0,  value:  0.291987}
+  - {high: 1.16795, low:  0.583974,  value:  0.875961}
+  - {high: 1.75192, low:  1.16795,  value:  1.45993}
+  - {high: 2.3359, low:  1.75192,  value:  2.04391}
+  - {high: 2.91987, low:  2.3359,  value:  2.62788}
+  - {high: 3.50384, low:  2.91987,  value:  3.21186}
+  - {high: 4.67179, low:  3.50384,  value:  4.08782}
+  - {high: 5.83974, low:  4.67179,  value:  5.25576}
+  - {high: 7.00769, low:  5.83974,  value:  6.42371}
+dependent_variables:
+- header: {name: '$N_{J/\psi}/<N_{J/\psi}>$'}
+  qualifiers:
+  - {name: RE, value: p p --> J/PSI (MU+ MU-)}
+  - {name: SQRT(s), units: GeV, value: 200}
+  values:
+  - value: 0.76952
+    errors: 
+    - {asymerror: {plus: 0.0188682, minus: -0.0188682}, label: stat}
+    - {asymerror: {plus: 0.0547837, minus: -0.0547837}, label: syst}
+  - value: 0.929956
+    errors: 
+    - {asymerror: {plus: 0.0226739, minus: -0.0226739}, label: stat}
+    - {asymerror: {plus: 0.060026, minus: -0.060026}, label: syst}
+  - value: 1.20254
+    errors: 
+    - {asymerror: {plus: 0.0319046, minus: -0.0319046}, label: stat}
+    - {asymerror: {plus: 0.0738849, minus: -0.0738849}, label: syst}
+  - value: 1.53434
+    errors: 
+    - {asymerror: {plus: 0.0461378, minus: -0.0461378}, label: stat}
+    - {asymerror: {plus: 0.0966526, minus: -0.0966526}, label: syst}
+  - value: 1.83052
+    errors: 
+    - {asymerror: {plus: 0.0694148, minus: -0.0694148}, label: stat}
+    - {asymerror: {plus: 0.128799, minus: -0.128799}, label: syst}
+  - value: 2.29738
+    errors: 
+    - {asymerror: {plus: 0.104822, minus: -0.104822}, label: stat}
+    - {asymerror: {plus: 0.185098, minus: -0.185098}, label: syst}
+  - value: 2.29881
+    errors: 
+    - {asymerror: {plus: 0.121374, minus: -0.121374}, label: stat}
+    - {asymerror: {plus: 0.233225, minus: -0.233225}, label: syst}
+  - value: 2.33363
+    errors: 
+    - {asymerror: {plus: 0.276166, minus: -0.276166}, label: stat}
+    - {asymerror: {plus: 0.290105, minus: -0.290105}, label: syst}
+  - value: 1.26371
+    errors: 
+    - {asymerror: {plus: 0.360666, minus: -0.360666}, label: stat}
+    - {asymerror: {plus: 0.178871, minus: -0.178871}, label: syst}

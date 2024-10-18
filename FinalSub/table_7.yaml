@@ -1,0 +1,44 @@
+independent_variables:
+- header: {name: '$N_{ch}/<N_{ch}>$'}
+  values:
+  - {high: 0.4734, low:  0.4734,  value:  1.243}
+  - {high: 0.7818, low:  0.7818,  value:  1.584}
+  - {high: 1.126, low:  1.126,  value:  1.921}
+  - {high: 1.504, low:  1.504,  value:  2.321}
+  - {high: 1.929, low:  1.929,  value:  2.724}
+  - {high: 2.531, low:  2.531,  value:  3.368}
+  - {high: 4.189, low:  4.189,  value:  5.167}
+dependent_variables:
+- header: {name: '$(N_{\psi(2S)}/N_{J/\psi})/<N_{\psi(2S)}/N_{J/\psi}>$'}  
+  qualifiers:
+  - {name: RE, value: p p --> PSI(2S) or J/PSI (MU+ MU-)}
+  - {name: SQRT(s), units: GeV, value: 200}
+  values:  
+  - value: 1.0861
+    errors: 
+    - {asymerror: {plus: 0.118599, minus: -0.118599}, label: stat}
+    - {asymerror: {plus: 0.0183645, minus: -0.0183645}, label: syst}
+  - value: 0.995332
+    errors: 
+    - {asymerror: {plus: 0.130684, minus: -0.130684}, label: stat}
+    - {asymerror: {plus: 0.0230416, minus: -0.0230416}, label: syst}
+  - value: 0.84021
+    errors: 
+    - {asymerror: {plus: 0.124536, minus: -0.124536}, label: stat}
+    - {asymerror: {plus: 0.0162044, minus: -0.0162044}, label: syst}
+  - value: 0.945563
+    errors: 
+    - {asymerror: {plus: 0.130869, minus: -0.130869}, label: stat}
+    - {asymerror: {plus: 0.0117881, minus: -0.0117881}, label: syst}
+  - value: 1.2478
+    errors: 
+    - {asymerror: {plus: 0.143181, minus: -0.143181}, label: stat}
+    - {asymerror: {plus: 0.00516057, minus: -0.00516057}, label: syst}
+  - value: 1.06658
+    errors: 
+    - {asymerror: {plus: 0.150484, minus: -0.150484}, label: stat}
+    - {asymerror: {plus: 0.00872369, minus: -0.00872369}, label: syst}
+  - value: 1.2775
+    errors: 
+    - {asymerror: {plus: 0.165457, minus: -0.165457}, label: stat}
+    - {asymerror: {plus: 0.0180459, minus: -0.0180459}, label: syst}
